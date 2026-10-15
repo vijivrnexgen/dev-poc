@@ -6,7 +6,7 @@
         "./cobol/cicslib/CUSTMAP.asm": {
             "source_code_type": "bms"
         },
-        "./cobol/cicslib/HELLO.cbl": {
+        "./cobol/cicslib/CUSTPGM.cbl": {
             "source_code_type": "cics"
         },
         "./cobol/copylib/ACCTCPY.cpy": {
