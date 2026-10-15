@@ -46,6 +46,13 @@
 
        DATA DIVISION.
        WORKING-STORAGE SECTION.
+       01  CUSTOMER-RECORD.                        
+            05  CR-CUSID                PIC X(10).  
+            05  CR-CUSNAME              PIC X(30).  
+            05  CR-CUSADDR              PIC X(50).  
+            05  CR-LOC                  PIC X(20).  
+            05  CR-EMAILID              PIC X(50).  
+            05  CR-PHONE                PIC X(15). 
       *----------------------------------------------------------------*
       * CONSTANTS                                                      *
       *----------------------------------------------------------------*
@@ -134,7 +141,6 @@
       *----------------------------------------------------------------*
       * RECORD LAYOUT, SYMBOLIC MAP, CICS COPYBOOKS                    *
       *----------------------------------------------------------------*
-           COPY CUSTREC.
            COPY CUSTMAP.
            COPY DFHAID.
            COPY DFHBMSCA.
